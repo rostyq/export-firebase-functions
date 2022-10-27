@@ -1,0 +1,33 @@
+{
+  "name": "export-firebase-functions",
+  "version": "0.1.0",
+  "description": "Package for exporting firebase functions with lazy-loading.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rostyq/export-firebase-functions.git"
+  },
+  "keywords": [
+    "firebase",
+    "cloud-functions"
+  ],
+  "author": "Rostyslav Bohomaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rostyq/export-firebase-functions/issues"
+  },
+  "homepage": "https://github.com/rostyq/export-firebase-functions#readme",
+  "devDependencies": {
+    "@types/node": "^18.11.7",
+    "typescript": "^4.8.4"
+  }
+}
